@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #31d14ee0;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+main{
+    margin: 100px auto;
+    max-width: 400px;
+    height: 400px;
+    background-color: #F5F5F5;
+    padding: 30px;
+    box-shadow: 1px 3px 13px #333333;
+}
+
+form{
+    background-color: #F5F5F5;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#username{
+    font-family: Arial;
+    font-size: 16px;
+    background-color: #3333;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline-color: #3333;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+#password{
+    font-family: Arial;
+    font-size: 16px;
+    background-color: #3333;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline-color: #3333;
+    border-radius: 3px;
+}
+
+label{
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #33333362;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+/*  SIGN IN  */
+.sign_in{
+    display: block;
+    margin: 0px auto 12px auto; 
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #0cc798;
+    border: none;
+    width: 100%;
+
+}
+.sign_in:hover{
+    background-color: #0cc798dc;
+}
+
+/*  P > a  */
+.link-1{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 13px;
+    color: #33333362;
+    text-align: center;
+    
+}
+
+.link-1:hover{
+    text-decoration: underline;
+    color: #33333362;
+}
+
+.link-2{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #33333362;
+    padding: 30px;
+
+}
+
+.link-2:hover{
+    text-decoration: underline;
+    color: #33333362;
+}
+
+/*  SIGN UP  */
+.sign_up{
+    padding: 10px;
+    background-color: #F5F5F5;
+    color: #0cc798dc;
+    border: 1px solid #0cc798dc;
+    border-radius: 5px; 
+}
+
+.sign_up:hover{
+    background-color: #0cc798;
+    color: #FFFFFF;
+}

@@ -1,0 +1,9 @@
+button-background --> #0cc798
+
+text-input background --> #000000 
+
+input background --> #F5F5F5
+
+text-color --> #F5F5F5
+
+button-color --> #FFFFFF
